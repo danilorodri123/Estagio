@@ -1,0 +1,272 @@
+/* FORMULÁRIO*/
+
+/*O asterístico é pra um padrao da pagina configurando para todos os elementos*/
+*{margin: 0; padding:0; font-family: arial,calibri; font-size:14px;}
+
+/* background principal*/
+#principal{
+	max-width:1405px;
+	height:800px;
+	margin:0 auto;
+	background-color: #eef7ed;
+}
+
+#definicao h1{
+	margin-top: -645px;
+	margin-left: 250px;
+	font-size: 30px;
+	background-color: #9fe3aa;
+	padding: 10px;
+	float: left;
+	border-radius: 15px;
+}
+
+	/*conteúdo do topo*/
+#topo{
+	width: 100%;
+	height: 150px;
+	background-color: #3a8737;
+	float: left;
+	position: relative;
+}
+
+#topo figure{
+	margin: 10px 1% auto;
+}
+
+#topo figure img{
+	width: 100px;
+	height: auto;
+	border-radius: 10px;
+	background-color: #FFF;
+	position: absolute;
+
+}
+
+#topo header{
+	margin-left: 450px;
+	width: 100%;
+	position: absolute;
+	margin-top: 30px;
+}
+
+#topo header h1{
+	text-align: center;
+	font-size: 18px;
+	color: #FFF
+}
+
+#foto {
+	list-style: none;
+	position: absolute;
+	top:-455px;
+	left: 510px;
+}
+
+#foto li:hover ul{display: block;}
+
+#cam{
+	width: 35px;
+	height: auto;
+	transition: 0.2s;
+}
+#foto li:hover #cam{ width: 52px; height: auto;}
+
+#foto li ul{
+	display: none;
+	list-style: none;	
+	background-color: #999;
+	width: 160px;
+	top: 20px;
+	left: 30px;
+	
+} 
+
+#foto li ul li{
+	color: #777;
+	padding: 10px 20px;
+	margin: 2px 0;
+	background-color: #FFF
+
+}#foto li ul li:hover{color: #FFF; background-color:#777; }
+
+#itens_menu li a{
+	text-decoration: none;
+	color:#0AF;
+	padding: 10px;
+}
+
+
+#topo nav{
+	border: 0px solid red;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-top:34%;
+	margin-left: 52%;
+}
+
+}
+
+
+
+
+/*Configuração da página de cadastro de estágio obrigatório*/
+
+
+#NomeSessao{
+	width: 0%
+	height: 50px;
+	left: 10%
+	margin-top: 130px;
+	color: white;
+	background-color: green;
+}
+#definicao{
+	width: 100%
+	height:800px;
+	margin:0 auto;
+}
+#area{/*Configuracao da div*/
+	position: absolute;
+	left:-10%;
+	top: 800px;
+	width:1200px;
+	height:300px;
+}
+#cadastro_estagiario{
+	margin-top: -500px;
+	margin-left: 80%;
+}
+#cadastro_estagiario input.txtCNPJ{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.txtRazaoSocial{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.txtSetorEstagio{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.txtNomeSupervisor{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.txtEmailSupervisor{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.txtTelefoneSupervisor{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.txtCargoSupervisor{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.txtValorBolsa{
+	margin-top: 5px;
+	width: 400px;
+	border-radius: 3px;
+}
+#cadastro_estagiario input.btnLimpar{
+	position: absolute;
+	width: 85px;
+	height: 23px;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+}
+#cadastro_estagiario input.btnAvançar{
+	position: relative;
+	left: 310px;
+	width: 95px;
+	height: 23px;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+
+}
+
+#erro {
+	top: 200px;
+	margin-left: 800px;
+}
+
+
+
+/*Configuração da pagina de formalizacao*/
+#formalizacao{
+	margin-top: -645px;
+	margin-left: 260px;
+	font-size: 30px;
+	background-color: #9fe3aa;
+	padding: 10px;
+	float: left;
+	border-radius: 15px;
+}
+#zona{/*Configuracao da div*/
+	position: absolute;
+	left:350px;
+	margin-top: -500px;
+	width:1200px;
+	height:300px;
+}
+#formal{
+	margin-left: 43%;
+	margin-top: 3%
+}
+#formal input.dia{
+	margin-top: 5px;
+	border-radius: 3px;
+}
+#formal input.mes{
+	margin-top: 5px;
+	border-radius: 3px;
+}
+#formal input.ano{
+	margin-top: 5px;
+	border-radius: 3px;
+}
+#formal  input.CHS{
+	margin-top: 5px;
+	border-radius: 3px;
+}
+#formal input.orientador{
+	margin-top: 5px;
+	border-radius: 3px;
+}
+#formal #plATIVIDADES{
+	margin-top: 6px;
+	border-radius: 3px;
+	size: 50px;
+
+}
+
+#formal input.btnLimpar2{
+	position: absolute;
+	width: 85px;
+	height: 23px;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+}
+#formal input.btnCadastrar{
+	position: relative;
+	left: 100px;
+	width: 95px;
+	height: 23px;
+	background-color: green;
+	color: white;
+	border-radius: 10px;
+
+}
